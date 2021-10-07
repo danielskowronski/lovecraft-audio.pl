@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>lovecraft-audio.pl - audiobooki z opowiadań H.P. Lovecrafta</title>
+</head>
+<body>
+
+<style>
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Ubuntu.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: bold;
+  src: url(./UbuntuBold.woff2) format('woff2');
+}
+html, body{
+  font-family: 'Ubuntu', sans-serif !important;
+  background: black;
+  color: white;
+}
+a {
+  color: gold;
+}
+tr {
+	text-align: center;
+	vertical-align: center;
+}
+table, tr, th, td{
+  border: 1px solid silver;
+  border-collapse: collapse;
+}
+.YT_stra img, .YT_grac img, .YT_tchn img, .YT_poli img, .YT_rafa img, .YT_pocz img, .YT_othr img {
+	height: 1.25em;
+	margin-bottom: -0.2em;
+}
+</style>
+
+<h1><b>lovecraft-audio.pl</b> - indeks audiobooków z opowiadań H.P. Lovecrafta</h1>
+
+Konwencje w tabeli:
+<ul>
+	<li>kolejność chronologiczna</li>
+	<li><i>Tytuł oryginału</i> prowadzi do witryny Good Reads pojedyneczego opowiadania</li>
+	<li><i>Tytuł polski</i> prowadzi do witryny hplovecraft.pl</li>
+  <li>kanały na YouTube są wyszczególniane w swoich kolumnach od 5 opowiadań wzwyż</li>
+	<li>jedynym wyjątkiem od publikacji na YouTube jest <i>Wyzwanie z Innego Świata</i> produkcji Audioteki - jak na razie jedyny audiobook z opowiadaniami Lovecrafta dostępny na platformie subskrypcyjnej</li>
+</ul>
+Gorąco zachęcam do subskrypcji oraz wsparcia lektorów z zalinkowanych kanałów jeśli sprawili Ci przyjemność ze słuchania opowiadań mistrza grozy!<br />
+
+<br />
+<hr />
+<br />
+
+<table>
+<tr>
+  <th class="titleEN">Tytuł oryginału</a></th>
+  <th class="titlePL">Tytuł polski</th>
+
+  <th class="YT_stra"><a href="https://www.youtube.com/c/Pi%C4%99knyApollo">Straszne<br />Opowieści</a></th>
+  <th class="YT_grac"><a href="https://www.youtube.com/channel/UCKH0M-7F9aByQI5TQE157jQ">Gracz<br />Pawdziwy</a></th>
+  <th class="YT_tchn"><a href="https://www.youtube.com/user/tchnieniegrozy">Tchnienie<br />Grozy</a></th>
+  <th class="YT_poli"><a href="https://www.youtube.com/c/PolishCreepypasta">Polish<br />Creepypasta</a></th>
+  <th class="YT_rafa"><a href="https://www.youtube.com/channel/UCVur4sxWINP2-xMHmbibOUw">Rafał<br />Bujnik</a></th>
+  <th class="YT_pocz"><a href="https://www.youtube.com/channel/UCQHiujZo63ZC8IiB_fDY2eg">Poczytane</a></th>
+  <th class="YT_othr">Pozostałe</th>
+</tr>
+
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13277865-the-little-glass-bottle">The Little Glass Bottle</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-little-glass-bottle/">Mała, czarna butelka<br />Mała szklana butelka</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13277869-the-secret-cave-or-john-lees-adventure">The Secret Cave</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-secret-cave/">Tajemnicza jaskinia albo Przygoda Johna Lee</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13277878-the-mystery-of-the-grave-yard">The Mystery of the Grave-Yard</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-mystery-of-the-grave-yard/">Tajemnica cmentarza</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=RM2LtzzPpoE&"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/27611816-the-mysterious-ship">The Mysterious Ship</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-mysterious-ship/">Tajemniczy statek</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6621012-the-beast-in-the-cave">The Beast in the Cave</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-beast-in-the-cave/">Bestia w jaskini</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=NRDuNYI9Tqc"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=CM4ZoI-bj00"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11554621-the-alchemist">The Alchemist</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-alchemist/">Alchemik</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=_JYu2pd1A0M"><img src="yt.png" /></a></td>
+  <td class="YT_grac"><a  href="https://www.youtube.com/watch?v=Z4jG67GPYmc"><img src="yt.png" /></a></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/8716987-the-tomb">The Tomb</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-tomb/">Grobowiec</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=V_1gYasTsFw"><img src="yt.png" /></a></td>
+  <td class="YT_grac"><a  href="https://www.youtube.com/watch?v=fcg5C6pnXD4"><img src="yt.png" /></a></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/12403819-dagon">Dagon</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/dagon/">Dagon</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=L-VZ4QJ3t6Q"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=LvqILqTMLFU"><img src="yt.png" /></a></td>
+  <td class="YT_poli"><a  href="https://www.youtube.com/watch?v=DxMyh-vykxc"><img src="yt.png" /></a></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=iKTJJj6uV5s"><img src="yt.png" /></a> <a href="https://www.youtube.com/watch?v=HGBdvPIWwBU"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/17826011-a-reminiscence-of-dr-samuel-johnson">A Reminiscence of Dr. Samuel Johnson</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/a-reminiscence-of-dr-samuel-johnson/">Reminiscencya Doktora Samuela Johnsona</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6619080-polaris">Polaris</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/polaris/">Polaris</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13277956-the-green-meadow">The Green Meadow</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-green-meadow/">Zielona łąka</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13596226-beyond-the-wall-of-sleep">Beyond the Wall of Sleep</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/beyond-the-wall-of-sleep/">Za ścianą snu<br />Poza murem snu<br />Za murem snu<br />Poza ścianą snu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"><a  href="https://www.youtube.com/watch?v=Cc3gLoWfM_M"><img src="yt.png" /></a></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11440949-memory">Memory</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/memory/">Pamięć</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=IsdSYkB76q0"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=mF4t03ga_d0"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/12175682-old-bugs">Old Bugs</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/old-bugs/">Old Bugs<br />Stary Bugs</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6457601-the-transition-of-juan-romero">The Transition of Juan Romero</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-transition-of-juan-romero/">Przemiana Juana Romero</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6621017-the-white-ship">The White Ship</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-white-ship/">Biały statek</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=f7-Br6GjqWo"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13277964-the-doom-that-came-to-sarnath">The Doom that Came to Sarnath</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-doom-that-came-to-sarnath/">Przyszła na Sarnath zagłada<br />Wypełnił się los Sarnath<br />Zagłada Sarnathu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6489513-the-statement-of-randolph-carter">The Statement of Randolph Carter</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-statement-of-randolph-carter/">Zeznania Randolpha Cartera</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=jvqXIkg8l2M"><img src="yt.png" /></a></td>
+  <td class="YT_grac"><a  href="https://www.youtube.com/watch?v=JYcK6jWoU1w"><img src="yt.png" /></a></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11819140-the-street">The Street</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-street/">Ulica</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=niKkyMWlB-c"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/9805769-the-terrible-old-man">The Terrible Old Man</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-terrible-old-man/">Przerażający staruch<br />Straszliwy Starzec</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=N0VdS4gw87s"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=08-si90iTHA"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=3-MQmMDHv8c"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11143472-the-cats-of-ulthar">The Cats of Ulthar</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-cats-of-ulthar/">Koty Ultharu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=MUC2ltYGo5E"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6621016-the-tree">The Tree</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-tree/">Drzewo</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/8319129-celepha-s">Celephaïs</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/celephais/">Celephais</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11961382-from-beyond">From Beyond</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/from-beyond/">Z tamtego świata<br />Z otchłani<br />Z zaświatów</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6505014-the-temple">The Temple</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-temple/">Świątynia</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/5024135-nyarlathotep">Nyarlathotep</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/nyarlathotep/">Nyarlathotep</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"><a href="https://www.youtube.com/watch?v=mytS4_wdZlA"><img src="yt.png" /></a></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6621014-the-picture-in-the-house">The Picture in the House</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-picture-in-the-house/">Rycina w starym domu<br />Rycina<br />Piekielna ilustracja</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=DfHvP2QgjBs"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=Jns8MzLd-lY"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=oUN9XKNYmWo"><img src="yt.png" /></a> <a href="https://www.youtube.com/watch?v=0naIAH26J_8"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6543144-facts-concerning-the-late-arthur-jermyn-and-his-family">Facts Concerning the Late Arthur Jermyn and His Family</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/arthur-jermyn/">Ustalenia dotyczące zmarłego Arthura Jermyna i jego rodu<br />Arthur Jermyn</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=qzCCIQj-G_o"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/25553971-poetry-and-the-gods">Poetry and the Gods</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/poetry-and-the-gods/">Poezja i bogowie</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/34377174-the-crawling-chaos">The Crawling Chaos</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-crawling-chaos/">Pełzający chaos</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=ye_6JRv_Nzs"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6505012-the-nameless-city">The Nameless City</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-nameless-city/">Bezimienne miasto<br />Zapomniane miasto</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=uG4nPSzMxW4"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6505017-the-quest-of-iranon">The Quest of Iranon</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-quest-of-iranon/">Wędrówka Iranona<br />Droga Iranona</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6505013-the-moon-bog">The Moon-Bog</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-moon-bog/">Księżycowe moczary</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/12211722-ex-oblivione">Ex Oblivione</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/ex-oblivione/">Ex Oblivione<br />Z otchłani i niepamięci</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=bpZxy2I9qSI"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=ScVecHPzJ2k"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/22514739-the-other-gods">The Other Gods</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-other-gods/">Inni bogowie<br />Zewnętrzni bogowie</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/8586330-the-outsider">The Outsider</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-outsider/">Przybysz<br />Obcy<br />Wyrzutek<br />Odszczepieniec</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=GCMC2PXFZng"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=qr1GZIONr5M"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/40069084-the-music-of-erich-zann">The Music of Erich Zann</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-music-of-erich-zann/">Muzyka Ericha Zanna</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=ckhen8gbVdk"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=6Es-MWst4s0"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=Tj7sRdyK81c"><img src="yt.png" /></a> <a href="https://www.youtube.com/watch?v=cndJK4GM-6A"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6662279-herbert-west-reanimator">Herbert West–Reanimator</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/reanimator/">Reanimator</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=_bckYjLQUYI"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=X5a9eqXtQjg"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6621010-hypnos">Hypnos</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/hypnos/">Hypnos</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"><a  href="https://www.youtube.com/watch?v=p4QYI1wGYU4"><img src="yt.png" /></a></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=6nn5ov1n5JY"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/9808350-what-the-moon-brings">What the Moon Brings</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/what-the-moon-brings/">Rzecz w świetle Księżyca</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=notI9WcnVss"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"><a href="https://www.youtube.com/watch?v=TxliPvLwL9g"><img src="yt.png" /></a></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=kRau0YIM_Qc"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/20862566-azathoth">Azathoth</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/azathoth/">Azathoth</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=vk0qNQzClw8"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"><a href="https://www.youtube.com/watch?v=oz5a95-UssA"><img src="yt.png" /></a></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=BQdU9nDUHng"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11289180-the-horror-at-martin-s-beach">The Horror at Martin's Beach</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-horror-at-martins-beach/">Groza na plaży Martina<br />Koszmar na plaży Martina</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6597221-the-hound">The Hound</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-hound/">Ogar<br />Pies</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=XZUvBVBuPMs"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=oO8vDl8b0U8"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/8292118-the-lurking-fear">The Lurking Fear</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-lurking-fear/">Przyczajona groza</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=wETDSiIXHuw"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13277902-sweet-ermengarde">Sweet Ermengarde</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/sweet-ermengarde/">Słodka Ermengarde</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/1289644.The_Rats_in_the_Walls">The Rats in the Walls</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-rats-in-the-walls/">Szczury w murach</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=AIXtBhvRT4M"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13277999-the-unnamable">The Unnamable</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-unnamable/">Nienazwane<br />Nienazwywalne</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=tB7MranMeKw"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"><a  href="https://www.youtube.com/watch?v=Y6VIGvgJE8g"><img src="yt.png" /></a></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/25933566-ashes">Ashes</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/ashes/">Popioły</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/29621001-the-ghost-eater">The Ghost Eater</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-ghost-eater/">Pożeracz duchów</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/21843375-the-loved-dead">The Loved Dead</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-loved-dead/">Ukochani zmarli</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6505016-the-festival">The Festival</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-festival/">Festyn<br />Święto</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=8h78TI__rRc"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=_ZtjZoYY6cI"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278028-deaf-dumb-and-blind">Deaf, Dumb and Blind</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/deaf-dumb-and-blind/">Głuchy, niemy i ślepy</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/29882742-under-the-pyramids">Under the Pyramids</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/under-the-pyramids/">Uwięziony wśród faraonów<br />Pod piramidami</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/8507286-the-shunned-house">The Shunned House</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-shunned-house/">Przeklęty dom<br />Opuszczony dom</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"><a  href="https://www.youtube.com/watch?v=QVKe9Kq73Ng&t=2s"><img src="yt.png" /></a></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=yvcoN_0igYc"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/2582189-the-horror-at-red-hook">The Horror at Red Hook</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-horror-at-red-hook/">Koszmar w Red Hook<br />Zgroza w Red Hook</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=8buuYNvGY4A"><img src="yt.png" /></a></td>
+  <td class="YT_grac"><a  href="https://www.youtube.com/watch?v=3jtvWnBNY3o"><img src="yt.png" /></a></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/20862569-he">He</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/he/">On</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/12249640-in-the-vault">In the Vault</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/in-the-vault/">W grobowcu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11963935-cool-air">Cool Air</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/cool-air/">Zimno<br />Chłodny powiew</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=SMaUwvBl_5s"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=UK9GU_uNLi8"><img src="yt.png" /></a> <a href="https://www.youtube.com/watch?v=2XiNk01mVj4"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/15730101-the-call-of-cthulhu">The Call of Cthulhu</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-call-of-cthulhu/">Zew Cthulhu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=9TMPAekczpY&t=6s"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/23432514-two-black-bottles">Two Black Bottles</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/two-black-bottles/">Dwie czarne butelki</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"><a  href="https://www.youtube.com/watch?v=8sRTKz-sMg8"><img src="yt.png" /></a></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/8563911-pickman-s-model">Pickman's Model</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/pickmans-model/">Model Pickmana</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=fvn3dLMfY4o"><img src="yt.png" /></a> <a href="https://www.youtube.com/watch?v=tX4qlasd_4c"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/10279252-the-strange-high-house-in-the-mist">The Strange High House in the Mist</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-strange-high-house-in-the-mist/">Dziwny wysoki dom wśród mgieł<br />Dziwny dom wysoko wśród mgieł</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=pP3IYYtPE7s"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/10930746-the-silver-key">The Silver Key</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-silver-key/">Srebrny klucz</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/722667.The_Dream_Quest_of_Unknown_Kadath">The Dream-Quest of Unknown Kadath</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-dream-quest-of-unknown-kadath/">W poszukiwaniu nieznanego Kadath<br />Ku nieznanemu Kadath śniąca się wędrówka</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"><a href="https://www.youtube.com/watch?v=WRJbs-WRCXQ"><img src="yt.png" /></a></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/129327.The_Case_of_Charles_Dexter_Ward">The Case of Charles Dexter Ward</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-case-of-charles-dexter-ward/">Przypadek Charlesa Dextera Warda</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"><a href="https://www.youtube.com/watch?v=lCSmN0LPxr4"><img src="yt.png" /></a></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/58558155-the-colour-out-of-space">The Colour Out of Space</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-colour-out-of-space/">Kolor z przestworzy</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=GO2YSdZJem0"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=9pQ-xieiZ5E"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=0h3iAbKG-JE"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11009466-the-descendant">The Descendant</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-descendant/">Potomek</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=uu0as72O0t0"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/9805770-the-very-old-folk">The Very Old Folk</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-very-old-folk/">Starodawny lud<br />Pradawny lud</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/50357772-the-thing-in-the-moonlight">The Thing in the Moonlight</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-thing-in-the-moonlight/">Rzecz w świetle księżyca</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=notI9WcnVss"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"><a href="https://www.youtube.com/watch?v=TxliPvLwL9g"><img src="yt.png" /></a></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=kRau0YIM_Qc"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278084-the-last-test">The Last Test</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-last-test/">Ostatnia próba</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/324636.History_of_the_Necronomicon">History of the Necronomicon</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-history-of-the-necronomicon/">Historia Necronomiconu</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=2Y1QeqborbY"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11904105-the-curse-of-yig">The Curse of Yig</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-curse-of-yig/">Klątwa Yiga</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/51723825-h-p-lovecraft---the-dunwich-horror">The Dunwich Horror</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-dunwich-horror/">Zgroza w Dunwich<br />Koszmar w Dunwich</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=ZBSJPc3FjAQ"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=SKBSdguqyx4"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13040593-ibid">Ibid</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/ibid/">Ibid</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/12056024-the-electric-executioner">The Electric Executioner</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-electric-executioner/">Elektryczny kat</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11530400-the-mound">The Mound</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-mound/">Wzgórze<br />Kopiec</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11446045-medusa-s-coil">Medusa's Coil</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/medusas-coil/">Sploty Meduzy</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/33515572-the-whisperer-in-darkness">The Whisperer in Darkness</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-whisperer-in-darkness/">Szepczący w ciemności</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"><a  href="https://www.youtube.com/watch?v=pmyjBJBqbFI"><img src="yt.png" /></a></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=cmzrj902Log&t=5s"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/32767.At_the_Mountains_of_Madness">At the Mountains of Madness</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/at-the-mountains-of-madness/">W górach szaleństwa</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=ClQhmq9lfaw"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=B8XPqsIGU_A&list=PLoyx3oE3BCfMnycgN4vAdNKSUaVpSsR93"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278117-the-trap">The Trap</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-trap/">Pułapka</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13175692-the-shadow-over-innsmouth">The Shadow over Innsmouth</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-shadow-over-innsmouth/">Widmo nad Innsmouth<br />Koszmar w Innsmouth</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=piMkgaDHSaY"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=7usx5qVlwiQ"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278166-the-dreams-in-the-witch-house">The Dreams in the Witch House</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-dreams-in-the-witch-house/">Sny w domu wiedźmy</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"><a  href="https://www.youtube.com/watch?v=g0U0W0wAKbA"><img src="yt.png" /></a></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=1s0tGGbYYac"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11904046-the-man-of-stone">The Man of Stone</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-man-of-stone/">Człowiek z kamienia</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/1157900.The_Horror_in_the_Museum">The Horror in the Museum</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-horror-in-the-museum/">Horror w muzeum<br />Koszmar w muzeum</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"><a  href="https://www.youtube.com/watch?v=8wtBiF8jGxU"><img src="yt.png" /></a></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6468203-through-the-gates-of-the-silver-key">Through the Gates of the Silver Key</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/through-the-gates-of-the-silver-key/">Poprzez bramy srebrnego klucza</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/6555373-the-thing-on-the-doorstep">The Thing on the Doorstep</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-thing-on-the-doorstep/">Coś na progu<br />Potwór na progu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"><a  href="https://www.youtube.com/watch?v=_DAqPhSpG3E"><img src="yt.png" /></a></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278124-winged-death">Winged Death</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/winged-death/">Skrzydlata śmierć</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278133-the-slaying-of-the-monster">The Slaying of the Monster</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-slaying-of-the-monster/">Zabicie potwora</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/10967374-out-of-the-aeons">Out of the Aeons</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/out-of-the-aeons/">Z otchłani czasu<br />Z bezmiaru eonów</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278134-the-book">The Book</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-book/">Księga</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=lMaZSaUFXHA"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=3UbPIo4BcGE"><img src="yt.png" /></a> <a href="https://www.youtube.com/watch?v=KgqbXAR-1jM"><img src="yt.png" /></a> <a href="https://www.youtube.com/watch?v=kd9MHXzd2U0"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/8129753-the-evil-clergyman">The Evil Clergyman</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-evil-clergyman/">Zły duchowny<br />Sen<br />Diabelski duchowny</a></td>
+
+  <td class="YT_stra"><a  href="https://www.youtube.com/watch?v=IEKVfw_NNiI"><img src="yt.png" /></a></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=OcfuD34TzVA"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/25929907-the-hoard-of-the-wizard-beast">The Hoard of the Wizard-Beast</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-hoard-of-the-wizard-beast/">Skarby czarnoksięskiej bestii</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278130-the-horror-in-the-burying-ground">The Horror in the Burying-Ground</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-horror-in-the-burying-ground/">Horror na cmentarzu<br />Koszmar na cmentarzu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"><a  href="https://www.youtube.com/watch?v=RM2LtzzPpoE"><img src="yt.png" /></a></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/18373618-the-tree-on-the-hill">The Tree on the Hill</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-tree-on-the-hill/">Drzewo na wzgórzu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/20638678-the-battle-that-ended-the-century">The Battle That Ended the Century</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-battle-that-ended-the-century/">Starcie, które zwieńczyło stulecie</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/872713.The_Shadow_Out_of_Time">The Shadow Out of Time</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-shadow-out-of-time/">Cień spoza czasu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=G5-lsT-OGLw"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/10190871-the-haunter-of-the-dark">The Haunter of the Dark</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-haunter-of-the-dark/">Nawiedziciel mroku<br />Duch ciemności</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=9NxAiCmkjRk"><img src="yt.png" /></a> <a href="https://www.youtube.com/watch?v=VnQQpH0OXvI"><img src="yt.png" /></a> </td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278149-till-a-the-seas">Till A' the Seas</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/till-a-the-seas/">"Aż wyschną głębie mórz"</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278151-collapsing-cosmoses">Collapsing Cosmoses</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/collapsing-cosmoses/">Ginące kosmosy</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/8246132-the-challenge-from-beyond">The Challenge from Beyond</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-challenge-from-beyond/">Wyzwanie spoza światów<br />Wyzwanie z innego świata</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://www.youtube.com/watch?v=B_RXkYlAWLQ"><img src="yt.png" /></a> <a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13596306-the-disinterment">The Disinterment</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-disinterment/">Ekshumacja</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/11530482-the-diary-of-alonzo-typer">The Diary of Alonzo Typer</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-diary-of-alonzo-typer/">Dziennik Alonzo Typera</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/9988943-in-the-walls-of-eryx">In the Walls of Eryx</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/in-the-walls-of-eryx/">W murach Eryksu</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"></td>
+</tr>
+<tr>
+  <td class="titleEN"><a href="https://www.goodreads.com/book/show/13278160-the-night-ocean">The Night Ocean</a></td>
+  <td class="titlePL"><a href="https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-night-ocean/">Nocny ocean</a></td>
+
+  <td class="YT_stra"></td>
+  <td class="YT_grac"></td>
+  <td class="YT_tchn"></td>
+  <td class="YT_poli"></td>
+  <td class="YT_rafa"></td>
+  <td class="YT_pocz"></td>
+  <td class="YT_othr"><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata"><img src="audioteka.jpg" /></a></td>
+</tr>
+</table>
+
+
+</body>
+</html>

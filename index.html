@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>lovecraft-audio.pl - audiobooki z opowiadań H.P. Lovecrafta</title>
+	<title>lovecraft-audio.pl - indeks audiobooków z opowiadaniami H.P. Lovecrafta</title>
   <script defer data-api="/api/event" data-domain="lovecraft-audio.pl" src="/js/script.js"></script>
 </head>
 <body>
@@ -24,36 +24,57 @@ html, body{
   font-family: 'Ubuntu', sans-serif !important;
   background: black;
   color: white;
+  padding:  10px;
 }
 hr {
   color:  silver;
 }
 a {
-  color: gold;
+  color:  gold;
+  padding: 2px;
+  margin:  2px;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background: gold;
 }
 tr {
 	text-align: center;
 	vertical-align: center;
 }
 table, tr, th, td{
-  border: 1px solid silver;
+  border: 1px solid #666;
   border-collapse: collapse;
+  padding: 5px;
+}
+th.thl:hover, th.thl:hover a, td:hover, td.titleEN:hover a, td.titlePL:hover a{
+  color: black;
+  background: gold;
+}
+td.YT_stra:hover, td.YT_grac:hover, td.YT_tchn:hover, td.YT_poli:hover, td.YT_rafa:hover, td.YT_pocz:hover, td.YT_othr:hover {
+  background: black;
 }
 .YT_stra img, .YT_grac img, .YT_tchn img, .YT_poli img, .YT_rafa img, .YT_pocz img, .YT_othr img {
 	height: 1.25em;
-	margin-bottom: -0.2em;
+  padding: 0.5em;
+  margin-top: -0.5em;
+	margin-bottom: -0.75em;
+}
+hr {
+  color:  gold;
 }
 </style>
 
-<h1><b>lovecraft-audio.pl</b> - indeks audiobooków z opowiadań H.P. Lovecrafta</h1>
+<h1><b><a href="https://lovecraft-audio.pl">lovecraft-audio.pl</a></b> - indeks audiobooków z opowiadaniami H.P. Lovecrafta</h1>
 
-Konwencje w tabeli:
+Konwencje przyjęte w tabeli:
 <ul>
-	<li>kolejność chronologiczna</li>
+	<li>kolejność opowiadań - chronologiczna</li>
 	<li><i>Tytuł oryginału</i> prowadzi do witryny Good Reads pojedyneczego opowiadania</li>
 	<li><i>Tytuł polski</i> prowadzi do witryny hplovecraft.pl</li>
   <li>kanały na YouTube są wyszczególniane w swoich kolumnach od 5 opowiadań wzwyż</li>
-	<li>jedynym wyjątkiem od publikacji na YouTube jest <i>Wyzwanie z Innego Świata</i> produkcji Audioteki - jak na razie jedyny audiobook z opowiadaniami Lovecrafta dostępny na platformie subskrypcyjnej</li>
+	<li>jedynym wyjątkiem od publikacji na YouTube jest zbiór <i>Wyzwanie z Innego Świata</i> produkcji Audioteki - jak na razie jedyny audiobook z opowiadaniami Lovecrafta dostępny na platformie subskrypcyjnej</li>
 </ul>
 Gorąco zachęcam do subskrypcji oraz wsparcia lektorów z zalinkowanych kanałów jeśli sprawili Ci przyjemność ze słuchania opowiadań mistrza grozy!<br />
 
@@ -66,12 +87,12 @@ Gorąco zachęcam do subskrypcji oraz wsparcia lektorów z zalinkowanych kanał�
   <th class="titleEN">Tytuł oryginału</a></th>
   <th class="titlePL">Tytuł polski</th>
 
-  <th class="YT_stra"><a href="https://www.youtube.com/c/Pi%C4%99knyApollo">Straszne<br />Opowieści</a></th>
-  <th class="YT_grac"><a href="https://www.youtube.com/channel/UCKH0M-7F9aByQI5TQE157jQ">Gracz<br />Pawdziwy</a></th>
-  <th class="YT_tchn"><a href="https://www.youtube.com/user/tchnieniegrozy">Tchnienie<br />Grozy</a></th>
-  <th class="YT_poli"><a href="https://www.youtube.com/c/PolishCreepypasta">Polish<br />Creepypasta</a></th>
-  <th class="YT_rafa"><a href="https://www.youtube.com/channel/UCVur4sxWINP2-xMHmbibOUw">Rafał<br />Bujnik</a></th>
-  <th class="YT_pocz"><a href="https://www.youtube.com/channel/UCQHiujZo63ZC8IiB_fDY2eg">Poczytane</a></th>
+  <th class="YT_stra thl"><a href="https://www.youtube.com/c/Pi%C4%99knyApollo">Straszne<br />Opowieści</a></th>
+  <th class="YT_grac thl"><a href="https://www.youtube.com/channel/UCKH0M-7F9aByQI5TQE157jQ">Gracz<br />Pawdziwy</a></th>
+  <th class="YT_tchn thl"><a href="https://www.youtube.com/user/tchnieniegrozy">Tchnienie<br />Grozy</a></th>
+  <th class="YT_poli thl"><a href="https://www.youtube.com/c/PolishCreepypasta">Polish<br />Creepypasta</a></th>
+  <th class="YT_rafa thl"><a href="https://www.youtube.com/channel/UCVur4sxWINP2-xMHmbibOUw">Rafał<br />Bujnik</a></th>
+  <th class="YT_pocz thl"><a href="https://www.youtube.com/channel/UCQHiujZo63ZC8IiB_fDY2eg">Poczytane</a></th>
   <th class="YT_othr">Pozostałe</th>
 </tr>
 

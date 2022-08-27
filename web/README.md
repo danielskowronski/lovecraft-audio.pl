@@ -1,8 +1,8 @@
-# https://lovecraft-audio.pl v2 - hugo
+# https://lovecraft-audio.pl hugo
 
 ## run server - with drafts
 ```bash
-hugo server -D --bind=192.168.0.200 --baseURL=http://192.168.0.200
+hugo server -D # --bind=192.168.0.200 --baseURL=http://192.168.0.200
 ```
 
 ## build and deploy - without drafts

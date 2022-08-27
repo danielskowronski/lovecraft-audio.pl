@@ -9,9 +9,11 @@ buildDrafts: false
 
 params:
   owner: Daniel Skowroński
-  centerTheme: true
-  themeColor: blue
-  autoCover: true
+  style:
+    isDark: true
+    lightAccent: "lemon"
+    darkAccent: "gold"
+
 
 markup:
   goldmark:

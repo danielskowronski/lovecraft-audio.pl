@@ -1,6 +1,29 @@
-{{ .Params.title_en }} <br />
-{{ range .Params.titles_pl }}
-    {{ . }}<br />
+Rok powstania: {{ .Params.creation_year }}<br />
+<br />
+Autorzy:
+<ul>
+{{ range .Params.authors }}
+    <li>{{ . }}</li>
 {{ end }}
-
-<!-- FIXME -->
+</ul>
+<br />
+Tytuły wydań polskich:
+<ul>
+{{ range .Params.titles_pl }}
+    <li><strong>{{ . }}</strong><br /></li>
+{{ end }}
+</ul>
+<br />
+Odnośnik do www.hplovecraft.pl: <a href="{{ .Params.link_www_hplovecraft_pl }}">{{ .Params.link_www_hplovecraft_pl }}</a><br />
+Odnośnik do www.goodreads.com: <a href="{{ .Params.link_www_goodreads_com }}">{{ .Params.link_www_goodreads_com }}</a><br />
+<br />
+Audiobooki: 
+{{ if .Params.audiobooks }}
+    <ul>
+    {{ range .Params.audiobooks }}
+      <li><img style="height: 1.5em; display: inline-block; margin: 0; vertical-align: bottom" src="/img/{{ if in .link "audioteka.com" }}audioteka.jpg{{ else }}yt.png{{ end }}" /> <a href="{{ .link }}">{{ .channel }}</a></li>
+    {{ end }}
+    </ul>
+{{ else }}
+brak
+{{ end }}

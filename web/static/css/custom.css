@@ -18,9 +18,15 @@
   src: url(/font/UbuntuCondensed.woff2) format('woff2');
 }
 
-html, body {
+#contact input[type=submit], .label-form, .toc summary, body>header>a, h6, h5, h4, h3, h2, h1, html, body {
   font-family: 'Ubuntu', sans-serif !important;
 }
+ol, ul {
+  padding-inline-start: 0rem !important;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
 .index{
   color: white !important;
   padding:  0;
@@ -28,56 +34,59 @@ html, body {
 
   max-width: 1200px;
 }
-.titles {
+#stories .titles {
   font-family: 'Ubuntu Condensed', sans-serif !important;
+  text-align: left;
+  padding: 0.25em;
 }
 
 @media only screen and (max-width: 600px) {
   #stories {
     font-size: 20px !important;
   }
-  .titles {
+  #stories .titles {
     font-size: 16px !important;
   }
 }
 
 
 #stories {
-  border-collapse: collapse;
+  /*border-collapse: collapse;*/
   width:  100% !important;
   font-size: 32px;
 }
 #stories strong {
   font-weight: 900;
 }
-#stories td, th {
+#stories td, th, tr {
   border: 1px solid #666;
   text-align: center;
 }
 #stories th {
+  background: rgba(31, 31, 31, 1);
+  border: 1px solid #666;
+
+}
+#stories thead {
   position: sticky;
   position: -webkit-sticky;
-  top: 0px;
+  top: -2px;
   z-index: 2;
-  border: 1px solid #666;
-  border-top: none;
-  border-bottom: none;
-  background: var(--bg);
 
   /* workaround for border-collapse not working properly with position: sticky */
-  box-shadow: 0px 1px #666, 0px -1px #666;
+  /* box-shadow: 0px 0px 1px 1px #666 !important; */
 }
 
 #stories th.vertical {
   white-space: nowrap;
-  width: 1.25em;
+  width: 1.5em;
 }
 
 #stories th.vertical > div {
   transform: 
     translate(5.30em, 6em)
     rotate(270deg);
-  width: 1.25em;
+  width: 1.5em;
   height: 12em;
 }
 #stories th.vertical > div > span {
@@ -85,9 +94,14 @@ html, body {
 }
 
 .link_icon{
-  width:          1.00em !important;
+  width:          1.50em !important;
   margin:         0.00em !important;
   margin-top:     0.25em !important;
   padding:        0.00em !important;
   display: inline;
+}
+
+
+footer {
+  display: none;
 }

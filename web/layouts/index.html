@@ -1,30 +1,49 @@
 {{ define "main" }}
   <main class="index">
+    Konwencje przyjęte w tabeli:
+    <li>kolejność opowiadań - chronologiczna</li>
+    <li>tytuł prowadzi do strony ze szczegółami oraz wszystkimi odnośnikami opowiadania</li>
+    <li>kanały na YouTube są wyszczególniane są w swoich kolumnach od 10 opowiadań wzwyż</li>
+    <li>jedynym wyjątkiem od publikacji na YouTube jest zbiór Wyzwanie z Innego Świata produkcji Audioteki - jak na razie jedyny audiobook z opowiadaniami Lovecrafta dostępny na platformie subskrypcyjnej</li>
+    <br />
+    Gorąco zachęcam do subskrypcji oraz wsparcia lektorów z zalinkowanych kanałów jeśli sprawili Ci przyjemność ze słuchania opowiadań mistrza grozy!
+    <br />
+    <hr />
+    <br />
+
     <table id="stories">
       <thead>
         <tr class="header">
           <th>Tytuły</th>
-          <th class="vertical"><div><span><a href="https://www.youtube.com/channel/UCKH0M-7F9aByQI5TQE157jQ">Gracz Pawdziwy</a></span></div></th>
-          <th class="vertical"><div><span><a href="https://www.youtube.com/user/tchnieniegrozy">Tchnienie Grozy</a></span></div></th>
-          <th class="vertical"><div><span><a href="https://www.youtube.com/c/PolishCreepypasta">Polish Creepypasta</a></span></div></th>
-          <th class="vertical"><div><span><a href="https://www.youtube.com/channel/UCVur4sxWINP2-xMHmbibOUw">Rafał Bujnik</a></span></div></th>
-          <th class="vertical"><div><span><a href="https://www.youtube.com/channel/UCQHiujZo63ZC8IiB_fDY2eg">Poczytane</a></span></div></th>
           <th class="vertical"><div><span><a href="https://www.youtube.com/c/Pi%C4%99knyApollo">Straszne Opowieści</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata">Audioteka</a></span></div></th>
           <th class="vertical"><div><span><a href="https://www.youtube.com/channel/UCe8L1jC8iiQR4H_j3CeoQkQ">Świat Lovecrafta</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://www.youtube.com/user/tchnieniegrozy">Tchnienie Grozy</a></span></div></th>
           <th class="vertical"><div><span>Pozostałe</span></div></th>
         </tr>
       </thead>
       <tbody>
-      {{ range where .Site.RegularPages "Section" "story"  }}
+      {{ range sort (where .Site.RegularPages "Section" "story") ".Params.creation_year" "asc"  }}
         <tr>
           <td class="titles">
-            <strong><a href="{{ .Permalink }}">{{ .Params.title_en }}</a></strong><br />
+            <strong><a href="{{ .Permalink }}">{{ .Params.title }}</a></strong><br />
             {{ range .Params.titles_pl }}
-                {{ . }}<br />
+                - {{ . }}<br />
+            {{ end }}
+          </ul>
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Straszne Opowieści") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
             {{ end }}
           </td>
           <td>
-            {{ range first 1 (where .Params.audiobooks "channel" "Gracz Pawdziwy") }}
+            {{ range first 1 (where .Params.audiobooks "channel" "Audioteka") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/{{ if in .link "audioteka.com" }}audioteka.jpg{{ else }}yt.png{{ end }}" /></a>
+            {{ end }}
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Świat Lovecrafta") }}
               <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
             {{ end }}
           </td>
@@ -34,32 +53,7 @@
             {{ end }}
           </td>
           <td>
-            {{ range first 1 (where .Params.audiobooks "channel" "Polish Creepypasta") }}
-              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
-            {{ end }}
-          </td>
-          <td>
-            {{ range first 1 (where .Params.audiobooks "channel" "Rafał Bujnik") }}
-              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
-            {{ end }}
-          </td>
-          <td>
-            {{ range first 1 (where .Params.audiobooks "channel" "Poczytane") }}
-              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
-            {{ end }}
-          </td>
-          <td>
-            {{ range first 1 (where .Params.audiobooks "channel" "Straszne Opowieści") }}
-              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
-            {{ end }}
-          </td>
-          <td>
-            {{ range first 1 (where .Params.audiobooks "channel" "Świat Lovecrafta") }}
-              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
-            {{ end }}
-          </td>
-          <td>
-            {{ range where .Params.audiobooks "channel" "_other" }}
+            {{ range where .Params.audiobooks "channel" "not in" (slice "Straszne Opowieści" "Audioteka" "Tchnienie Grozy" "Świat Lovecrafta") }}
               <a href="{{ .link }}" title="{{ .channel_name }}" class="link"><img class="link_icon" src="/img/{{ if in .link "audioteka.com" }}audioteka.jpg{{ else }}yt.png{{ end }}" /></a><br />
             {{ end }}
           </td>
@@ -67,5 +61,10 @@
       {{ end }}
       </tbody>
   </table>
+  <br />
+  <hr />
+  <br />
+  Kontakt poprzez: <a href="https://github.com/danielskowronski/lovecraft-audio.pl">https://github.com/danielskowronski/lovecraft-audio.pl</a><br />
+  Privacy policy available at: <a href="https://skowron.ski/privacy_policy.html">https://skowron.ski/privacy_policy.html</a>
   </main>
 {{ end }}

@@ -1,0 +1,71 @@
+{{ define "main" }}
+  <main class="index">
+    <table id="stories">
+      <thead>
+        <tr class="header">
+          <th>Tytuły</th>
+          <th class="vertical"><div><span><a href="https://www.youtube.com/channel/UCKH0M-7F9aByQI5TQE157jQ">Gracz Pawdziwy</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://www.youtube.com/user/tchnieniegrozy">Tchnienie Grozy</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://www.youtube.com/c/PolishCreepypasta">Polish Creepypasta</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://www.youtube.com/channel/UCVur4sxWINP2-xMHmbibOUw">Rafał Bujnik</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://www.youtube.com/channel/UCQHiujZo63ZC8IiB_fDY2eg">Poczytane</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://www.youtube.com/c/Pi%C4%99knyApollo">Straszne Opowieści</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://www.youtube.com/channel/UCe8L1jC8iiQR4H_j3CeoQkQ">Świat Lovecrafta</a></span></div></th>
+          <th class="vertical"><div><span>Pozostałe</span></div></th>
+        </tr>
+      </thead>
+      <tbody>
+      {{ range where .Site.RegularPages "Section" "story"  }}
+        <tr>
+          <td class="titles">
+            <strong><a href="{{ .Permalink }}">{{ .Params.title_en }}</a></strong><br />
+            {{ range .Params.titles_pl }}
+                {{ . }}<br />
+            {{ end }}
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Gracz Pawdziwy") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
+            {{ end }}
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Tchnienie Grozy") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
+            {{ end }}
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Polish Creepypasta") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
+            {{ end }}
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Rafał Bujnik") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
+            {{ end }}
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Poczytane") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
+            {{ end }}
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Straszne Opowieści") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
+            {{ end }}
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Świat Lovecrafta") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
+            {{ end }}
+          </td>
+          <td>
+            {{ range where .Params.audiobooks "channel" "_other" }}
+              <a href="{{ .link }}" title="{{ .channel_name }}" class="link"><img class="link_icon" src="/img/{{ if in .link "audioteka.com" }}audioteka.jpg{{ else }}yt.png{{ end }}" /></a><br />
+            {{ end }}
+          </td>
+        </tr>
+      {{ end }}
+      </tbody>
+  </table>
+  </main>
+{{ end }}

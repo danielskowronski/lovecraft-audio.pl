@@ -1,0 +1,19 @@
+---
+baseURL: 'https://lovecraft-audio.pl'
+languageCode: pl-pl
+theme: color-your-world
+title: 'lovecraft-audio.pl - indeks audiobooków z opowiadaniami H.P. Lovecrafta'
+enableRobotsTXT: true
+
+buildDrafts: false
+
+params:
+  owner: Daniel Skowroński
+  centerTheme: true
+  themeColor: blue
+  autoCover: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,15 +1,19 @@
 {{ define "main" }}
   <main class="index">
-    Konwencje przyjęte w tabeli:
-    <li>kolejność opowiadań - chronologiczna</li>
-    <li>tytuł prowadzi do strony ze szczegółami oraz wszystkimi odnośnikami opowiadania</li>
-    <li>kanały na YouTube są wyszczególniane są w swoich kolumnach od 10 opowiadań wzwyż</li>
-    <li>jedynym wyjątkiem od publikacji na YouTube jest zbiór Wyzwanie z Innego Świata produkcji Audioteki - jak na razie jedyny audiobook z opowiadaniami Lovecrafta dostępny na platformie subskrypcyjnej</li>
-    <br />
-    Gorąco zachęcam do subskrypcji oraz wsparcia lektorów z zalinkowanych kanałów jeśli sprawili Ci przyjemność ze słuchania opowiadań mistrza grozy!
-    <br />
-    <hr />
-    <br />
+    <div class="description">
+      Konwencje przyjęte w tabeli:
+      <ul>
+      <li>kolejność opowiadań - chronologiczna</li>
+      <li>tytuł prowadzi do strony ze szczegółami oraz wszystkimi odnośnikami opowiadania</li>
+      <li>kanały na YouTube są wyszczególniane są w swoich kolumnach od 10 opowiadań wzwyż</li>
+      <li>jedynym wyjątkiem od publikacji na YouTube jest zbiór <i>Wyzwanie z Innego Świata</i> produkcji Audioteki<br />(jak na razie jedyny audiobook z opowiadaniami Lovecrafta dostępny na platformie subskrypcyjnej)</li>
+      </ul>
+      <br />
+      Gorąco zachęcam do subskrypcji oraz wsparcia lektorów z zalinkowanych kanałów, jeśli sprawili Ci przyjemność ze słuchania opowiadań mistrza grozy!
+      <br />
+      <hr />
+      <br />
+    </div>
 
     <table id="stories">
       <thead>
@@ -61,10 +65,5 @@
       {{ end }}
       </tbody>
   </table>
-  <br />
-  <hr />
-  <br />
-  Kontakt poprzez: <a href="https://github.com/danielskowronski/lovecraft-audio.pl">https://github.com/danielskowronski/lovecraft-audio.pl</a><br />
-  Privacy policy available at: <a href="https://skowron.ski/privacy_policy.html">https://skowron.ski/privacy_policy.html</a>
   </main>
 {{ end }}

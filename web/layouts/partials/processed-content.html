@@ -19,11 +19,9 @@ Odnośnik do www.goodreads.com: <a href="{{ .Params.link_www_goodreads_com }}">{
 <br />
 Audiobooki: 
 {{ if .Params.audiobooks }}
-    <ul>
     {{ range .Params.audiobooks }}
-      <li><img style="height: 1.5em; display: inline-block; margin: 0; vertical-align: bottom" src="/img/{{ if in .link "audioteka.com" }}audioteka.jpg{{ else }}yt.png{{ end }}" /> <a href="{{ .link }}">{{ .channel }}</a></li>
+    <br /><img style="height: 1.25em; display: inline-block; margin: 0; vertical-align: bottom; margin-left: 0.25em" src="/img/{{ if in .link "audioteka.com" }}audioteka.jpg{{ else }}yt.png{{ end }}" /> <a href="{{ .link }}">{{ .channel }}</a>
     {{ end }}
-    </ul>
 {{ else }}
 brak
 {{ end }}

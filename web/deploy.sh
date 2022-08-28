@@ -1,5 +1,5 @@
 #!/bin/bash
-hugo
+hugo --minify
 
 rsync -avz --delete public/ root@webd01.rlyeh.ds:/srv/lovecraft-audio.pl
 

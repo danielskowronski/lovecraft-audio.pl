@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=IsdSYkB76q0
   - channel: Sepian
     link: https://www.youtube.com/watch?v=mF4t03ga_d0
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=bTR-f4-0y5s
 ---
 

@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=HgwVtl3IUSc
   - channel: Oldcreepyman100
     link: https://www.youtube.com/watch?v=MUC2ltYGo5E
+  - channel: GOTRI
+    link: https://www.youtube.com/watch?v=-Y8akIwfw-8
 ---
 

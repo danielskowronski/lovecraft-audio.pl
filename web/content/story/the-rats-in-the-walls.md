@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=AIXtBhvRT4M
   - channel: Świat Lovecrafta
     link: https://www.youtube.com/watch?v=AHwt1AO9Cww
+  - channel: Dzivny
+    link: https://www.youtube.com/watch?v=_lOcQC30vik
 ---
 

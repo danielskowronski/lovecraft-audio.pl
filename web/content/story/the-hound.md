@@ -15,5 +15,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/6597221-the-hound
 audiobooks:
   - channel: Straszne Opowieści
     link: https://www.youtube.com/watch?v=XZUvBVBuPMs
+  - channel: Horror Ziom
+    link: https://www.youtube.com/watch?v=t8NDr-jjpcE
 ---
 

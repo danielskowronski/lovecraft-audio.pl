@@ -11,6 +11,8 @@ creation_year: 1902
 link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-mysterious-ship/
 link_www_goodreads_com: https://www.goodreads.com/book/show/27611816-the-mysterious-ship
 
-audiobooks: []
+audiobooks:
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=EPf0NgOyeG4
 ---
 

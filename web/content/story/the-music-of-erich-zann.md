@@ -22,5 +22,9 @@ audiobooks:
     link: https://www.youtube.com/watch?v=Tj7sRdyK81c
   - channel: Zaskroniec
     link: https://www.youtube.com/watch?v=cndJK4GM-6A
+  - channel: Dzivny
+    link: https://www.youtube.com/watch?v=SzJFOgMYX38
+  - channel: GOTRI
+    link: https://www.youtube.com/watch?v=OLwflrBMaSk
 ---
 

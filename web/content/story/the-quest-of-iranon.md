@@ -12,6 +12,8 @@ creation_year: 1921
 link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-quest-of-iranon/
 link_www_goodreads_com: https://www.goodreads.com/book/show/6505017-the-quest-of-iranon
 
-audiobooks: []
+audiobooks:
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=EM4aqh4_NCQ
 ---
 

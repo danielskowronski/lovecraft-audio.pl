@@ -14,5 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/6619080-polaris
 audiobooks:
   - channel: Straszne Opowieści
     link: https://www.youtube.com/watch?v=icAElm_Te30
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=FEkNyzDRm18
 ---
 

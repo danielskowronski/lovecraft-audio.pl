@@ -2,7 +2,7 @@
 title: "He"
 
 titles_pl:
-  - On
+  - "On"
 
 authors:
   - H.P. Lovecraft

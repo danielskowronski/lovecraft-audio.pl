@@ -16,5 +16,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/11961382-from-beyond
 audiobooks:
   - channel: Straszne Opowieści
     link: https://www.youtube.com/watch?v=b_2EiLGZU5k
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=dbVfPK-eR9Y
 ---
 

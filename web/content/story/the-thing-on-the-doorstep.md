@@ -15,5 +15,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/6555373-the-thing-on
 audiobooks:
   - channel: Gracz Prawdziwy
     link: https://www.youtube.com/watch?v=_DAqPhSpG3E
+  - channel: Dzivny
+    link: https://www.youtube.com/watch?v=eOh8Czduvs0
 ---
 

@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=jvqXIkg8l2M
   - channel: Gracz Prawdziwy
     link: https://www.youtube.com/watch?v=JYcK6jWoU1w
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=IIWI2KUMCSA
 ---
 

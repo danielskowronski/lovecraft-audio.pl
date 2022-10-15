@@ -22,5 +22,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=iKTJJj6uV5s
   - channel: Zaskroniec
     link: https://www.youtube.com/watch?v=HGBdvPIWwBU
+  - channel: Dzivny
+    link: https://www.youtube.com/watch?v=V3wCZY7ypjs
 ---
 

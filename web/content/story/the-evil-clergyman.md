@@ -14,8 +14,6 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/8129753-the-evil-clergyman
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=IEKVfw_NNiI
   - channel: Świat Lovecrafta
     link: https://www.youtube.com/watch?v=8q0jZegF1p0
   - channel: Sepian

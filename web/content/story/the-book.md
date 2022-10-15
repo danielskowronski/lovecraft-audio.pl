@@ -12,8 +12,6 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/13278134-the-book
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=lMaZSaUFXHA
   - channel: Polish Creepypasta
     link: https://www.youtube.com/watch?v=3UbPIo4BcGE
   - channel: Świat Lovecrafta

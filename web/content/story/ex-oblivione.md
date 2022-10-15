@@ -12,8 +12,6 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/12211722-ex-oblivione
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=bpZxy2I9qSI
   - channel: Świat Lovecrafta
     link: https://youtube.com/watch?v=SpDCS6lxhy4
   - channel: Oldcreepyman100

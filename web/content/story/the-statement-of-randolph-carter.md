@@ -12,8 +12,6 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/6489513-the-statement-of-randolph-carter
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=jvqXIkg8l2M
   - channel: Gracz Prawdziwy
     link: https://www.youtube.com/watch?v=JYcK6jWoU1w
   - channel: Świat Lovecrafta

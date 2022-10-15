@@ -13,8 +13,6 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/9805769-the-terrible-old-man
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=N0VdS4gw87s
   - channel: Tchnienie Grozy
     link: https://www.youtube.com/watch?v=08-si90iTHA
   - channel: Świat Lovecrafta

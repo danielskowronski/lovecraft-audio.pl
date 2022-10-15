@@ -12,8 +12,6 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/50357772-the-thing-in-the-moonlight
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=notI9WcnVss
   - channel: Poczytane
     link: https://www.youtube.com/watch?v=TxliPvLwL9g
   - channel: Świat Lovecrafta

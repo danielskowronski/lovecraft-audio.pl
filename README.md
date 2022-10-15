@@ -9,3 +9,13 @@ youtube links with too many params:
 ```bash
 yq -N '.audiobooks[].link' `find content/story -type f` | egrep '\?v\=.{11}\&'
 ```
+
+inactive links:
+```bash
+./check_inactive_links.sh
+```
+
+channel count:
+```bash
+yq -N '.audiobooks[].channel' `find ./web/content/story -type f` | sort | uniq -c | sort -rn
+```

@@ -13,8 +13,6 @@ creation_year: 1934
 link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-horror-in-the-burying-ground/
 link_www_goodreads_com: https://www.goodreads.com/book/show/13278130-the-horror-in-the-burying-ground
 
-audiobooks:
-  - channel: Rafał Bujnik
-    link: https://www.youtube.com/watch?v=RM2LtzzPpoE
+audiobooks: []
 ---
 

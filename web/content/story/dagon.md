@@ -18,8 +18,6 @@ audiobooks:
     link: https://www.youtube.com/watch?v=LvqILqTMLFU
   - channel: Polish Creepypasta
     link: https://www.youtube.com/watch?v=DxMyh-vykxc
-  - channel: Reconigitize
-    link: https://www.youtube.com/watch?v=iKTJJj6uV5s
   - channel: Zaskroniec
     link: https://www.youtube.com/watch?v=HGBdvPIWwBU
   - channel: Dzivny

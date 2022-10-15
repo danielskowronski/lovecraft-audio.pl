@@ -1,7 +1,7 @@
 #!/bin/bash
 hugo --minify
 
-rsync -avz --delete public/ root@webd01.rlyeh.ds:/srv/lovecraft-audio.pl
+rsync -avz --delete public/ root@10.0.1.1:/srv/lovecraft-audio.pl
 
 curl -X POST "https://api.cloudflare.com/client/v4/zones/273bc8069874627e50c5dd2298d150c4/purge_cache" \
   -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \

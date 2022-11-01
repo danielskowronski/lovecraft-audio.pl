@@ -1,5 +1,9 @@
 #!/bin/bash
+git show --summary | awk '$1=="commit"{print $2}' > last_commit_id.txt # workaround for https://github.com/gohugoio/hugo/issues/5533 - when fixed web/layouts/partials/custom/footer-text.html should use $.GitInfo.Hash and $.Page.Lastmod
+
 hugo --minify
+
+echo "post-deploy-stage" > last_commit_id.txt
 
 rsync -avz --delete public/ root@10.0.1.1:/srv/lovecraft-audio.pl
 

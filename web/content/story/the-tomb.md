@@ -14,7 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/8716987-the-tomb
 audiobooks:
   - channel: Gracz Prawdziwy
     link: https://www.youtube.com/watch?v=fcg5C6pnXD4
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=V_1gYasTsFw
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=CtVdcg5X1sE
 ---
 

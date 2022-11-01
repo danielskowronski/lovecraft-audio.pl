@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=g0U0W0wAKbA
   - channel: Polskie Dreszcze
     link: https://www.youtube.com/watch?v=1s0tGGbYYac
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=e7p15sMI_wE
 ---
 

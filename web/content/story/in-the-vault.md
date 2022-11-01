@@ -14,5 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/12249640-in-the-vaul
 audiobooks:
   - channel: Straszne Opowieści
     link: https://www.youtube.com/watch?v=Ayc_BnaPt6c
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=vIkwr6omi70
 ---
 

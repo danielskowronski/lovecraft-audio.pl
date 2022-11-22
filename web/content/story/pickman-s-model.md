@@ -18,5 +18,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=fvn3dLMfY4o
   - channel: Anna Wasilewska
     link: https://www.youtube.com/watch?v=tX4qlasd_4c
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=Sk9skRh_hT0
 ---
 

@@ -15,5 +15,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/9805770-the-very-old
 audiobooks:
   - channel: Audioteka
     link: https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=SOzFHNTw0E8
 ---
 

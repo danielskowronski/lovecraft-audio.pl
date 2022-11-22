@@ -17,5 +17,9 @@ audiobooks:
     link: https://www.youtube.com/watch?v=_DAqPhSpG3E
   - channel: Dzivny
     link: https://www.youtube.com/watch?v=eOh8Czduvs0
+  - channel: Horror Ziom
+    link: https://www.youtube.com/watch?v=eOh8Czduvs0
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=LAjzRcZyGCY
 ---
 

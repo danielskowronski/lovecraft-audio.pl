@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=IrFxuzqPCpM
   - channel: Cierpnąca Skóra
     link: https://www.youtube.com/watch?v=CM4ZoI-bj00
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=aqJ21A6kZrY
 ---
 

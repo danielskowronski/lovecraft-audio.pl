@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=fcg5C6pnXD4
   - channel: Świat Lovecrafta
     link: https://www.youtube.com/watch?v=CtVdcg5X1sE
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=nyDG4LxLLdQ
 ---
 

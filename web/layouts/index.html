@@ -20,9 +20,10 @@
         <tr class="header">
           <th>Tytuły</th>
           <th class="vertical"><div><span><a href="https://www.youtube.com/c/Pi%C4%99knyApollo">Straszne Opowieści</a></span></div></th>
-          <th class="vertical"><div><span><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata">Audioteka</a></span></div></th>
           <th class="vertical"><div><span><a href="https://www.youtube.com/channel/UCe8L1jC8iiQR4H_j3CeoQkQ">Świat Lovecrafta</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata">Audioteka</a></span></div></th>
           <th class="vertical"><div><span><a href="https://www.youtube.com/user/tchnieniegrozy">Tchnienie Grozy</a></span></div></th>
+          <th class="vertical"><div><span><a href="https://www.youtube.com/@strefacieni">Strefa Cieni</a></span></div></th>
           <th class="vertical"><div><span>Pozostałe</span></div></th>
         </tr>
       </thead>
@@ -42,17 +43,22 @@
             {{ end }}
           </td>
           <td>
-            {{ range first 1 (where .Params.audiobooks "channel" "Audioteka") }}
-              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/{{ if in .link "audioteka.com" }}audioteka.jpg{{ else }}yt.png{{ end }}" /></a>
-            {{ end }}
-          </td>
-          <td>
             {{ range first 1 (where .Params.audiobooks "channel" "Świat Lovecrafta") }}
               <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
             {{ end }}
           </td>
           <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Audioteka") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/{{ if in .link "audioteka.com" }}audioteka.jpg{{ else }}yt.png{{ end }}" /></a>
+            {{ end }}
+          </td>
+          <td>
             {{ range first 1 (where .Params.audiobooks "channel" "Tchnienie Grozy") }}
+              <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
+            {{ end }}
+          </td>
+          <td>
+            {{ range first 1 (where .Params.audiobooks "channel" "Strefa Cieni") }}
               <a href="{{ .link }}" title="{{ .channel }}" class="link"><img class="link_icon" src="/img/yt.png" /></a>
             {{ end }}
           </td>

@@ -20,5 +20,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=OcfuD34TzVA
   - channel: Dzivny
     link: https://www.youtube.com/watch?v=i_kXoX9JJjI
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=jGkFcaQrqcg
 ---
 

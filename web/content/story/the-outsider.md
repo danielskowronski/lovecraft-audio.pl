@@ -19,5 +19,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=GCMC2PXFZng
   - channel: Kulturalny Wilk
     link: https://www.youtube.com/watch?v=qr1GZIONr5M
+  - channel: Dzivny
+    link: https://www.youtube.com/watch?v=oSBcG_e-ffk
 ---
 

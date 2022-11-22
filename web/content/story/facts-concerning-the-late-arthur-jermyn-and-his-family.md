@@ -15,5 +15,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/6543144-facts-concer
 audiobooks:
   - channel: Straszne Opowieści
     link: https://www.youtube.com/watch?v=qzCCIQj-G_o
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=7LU4YY2V8q0
 ---
 

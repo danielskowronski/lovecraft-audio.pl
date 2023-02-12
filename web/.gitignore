@@ -13,3 +13,5 @@ hugo.linux
 /.hugo_build.lock
 
 last_commit_id.txt
+RELEASES.yaml
+REPORT.md

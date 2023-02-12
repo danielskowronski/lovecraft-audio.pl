@@ -10,21 +10,11 @@ hugo server -D # --bind=192.168.255.200 --baseURL=http://192.168.255.200
 bash deploy.sh
 ```
 
-## searches
+## searches & checks
 
-new releases: https://www.youtube.com/results?search_query=lovecraft&sp=CAI%253D
-
-youtube links with too many params:
+reports:
 ```bash
-yq -N '.audiobooks[].link' `find content/story -type f` | egrep '\?v\=.{11}\&'
+./report.sh
+open REPORT.md
 ```
-
-inactive links:
-```bash
-./check_inactive_links.sh
-```
-
-channel count:
-```bash
-yq -N '.audiobooks[].channel' `find content/story -type f` | sort | uniq -c | sort -rn
-```
+new releases: [https://www.youtube.com/results?search_query=lovecraft&sp=CAI%253D](https://www.youtube.com/results?search_query=lovecraft&sp=CAI%253D)

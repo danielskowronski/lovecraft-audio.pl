@@ -14,5 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/13040593-ibid
 audiobooks:
   - channel: Audioteka
     link: https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=nAnlaKb_5hM
 ---
 

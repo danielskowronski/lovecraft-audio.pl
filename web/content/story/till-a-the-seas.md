@@ -15,5 +15,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/13278149-till-a-the-
 audiobooks:
   - channel: Audioteka
     link: https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=NPI6PCWqAFQ
 ---
 

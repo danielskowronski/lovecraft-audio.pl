@@ -13,7 +13,7 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/13278028-deaf-dumb-and-blind
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=w4t6sWs8k28
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=-d8UDxjA1oU
 ---
 

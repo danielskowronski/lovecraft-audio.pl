@@ -21,5 +21,9 @@ audiobooks:
     link: https://www.youtube.com/watch?v=qr1GZIONr5M
   - channel: Dzivny
     link: https://www.youtube.com/watch?v=oSBcG_e-ffk
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=E2xfUBpp80M
+  - channel: Autystyczny Budda
+    link: https://www.youtube.com/watch?v=BZn8J82B62I
 ---
 

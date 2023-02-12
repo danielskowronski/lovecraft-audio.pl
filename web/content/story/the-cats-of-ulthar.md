@@ -12,8 +12,8 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/11143472-the-cats-of-ulthar
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=HgwVtl3IUSc
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=40eu5ERRb_4
   - channel: Oldcreepyman100
     link: https://www.youtube.com/watch?v=MUC2ltYGo5E
   - channel: GOTRI

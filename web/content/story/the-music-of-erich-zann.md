@@ -26,5 +26,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=SzJFOgMYX38
   - channel: GOTRI
     link: https://www.youtube.com/watch?v=OLwflrBMaSk
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=L6If09t3gJE
 ---
 

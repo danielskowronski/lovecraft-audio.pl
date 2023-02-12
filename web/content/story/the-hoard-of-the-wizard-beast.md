@@ -14,5 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/25929907-the-hoard-o
 audiobooks:
   - channel: Audioteka
     link: https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=r6Ltj8QBeZ0
 ---
 

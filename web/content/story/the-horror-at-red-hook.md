@@ -17,5 +17,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=8buuYNvGY4A
   - channel: Gracz Prawdziwy
     link: https://www.youtube.com/watch?v=3jtvWnBNY3o
+  - channel: Anna Budzik Czyta
+    link: https://www.youtube.com/watch?v=u9wFf0LUEIA
 ---
 

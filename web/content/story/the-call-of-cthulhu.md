@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=rlMikli_JtQ
   - channel: Tchnienie Grozy
     link: https://www.youtube.com/watch?v=9TMPAekczpY
+  - channel: Dzivny
+    link: https://www.youtube.com/watch?v=FGOrM82dEZA
 ---
 

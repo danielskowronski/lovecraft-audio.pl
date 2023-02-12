@@ -12,6 +12,8 @@ creation_year: 1928
 link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowele-powiesci/the-curse-of-yig/
 link_www_goodreads_com: https://www.goodreads.com/book/show/11904105-the-curse-of-yig
 
-audiobooks: []
+audiobooks:
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=FW_xZn2NiaA
 ---
 

@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=pmyjBJBqbFI
   - channel: Polskie Dreszcze
     link: https://www.youtube.com/watch?v=cmzrj902Log
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=hNJqFCj9I2I&list=PLXyR6MkY84z85jag4omB8dPpo5Yapymjo
 ---
 

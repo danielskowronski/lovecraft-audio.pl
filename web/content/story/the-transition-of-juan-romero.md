@@ -14,5 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/6457601-the-transiti
 audiobooks:
   - channel: Straszne Opowieści
     link: https://www.youtube.com/watch?v=DPxXJDJiT7k
+  - channel: Audiometria
+    link: https://www.youtube.com/watch?v=euBTXwG79LA
 ---
 

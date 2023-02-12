@@ -14,5 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/5024135-nyarlathotep
 audiobooks:
   - channel: Poczytane
     link: https://www.youtube.com/watch?v=mytS4_wdZlA
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=NM4oWRdOthk
 ---
 

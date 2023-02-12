@@ -22,5 +22,9 @@ audiobooks:
     link: https://www.youtube.com/watch?v=i_kXoX9JJjI
   - channel: Strefa Cieni
     link: https://www.youtube.com/watch?v=jGkFcaQrqcg
+  - channel: Zaczytany
+    link: https://www.youtube.com/watch?v=VKr4g7yt1Cw
+  - channel: Horror Ziom
+    link: https://www.youtube.com/watch?v=i_kXoX9JJjI
 ---
 

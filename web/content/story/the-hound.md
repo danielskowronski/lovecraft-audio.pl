@@ -13,9 +13,13 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/6597221-the-hound
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=XZUvBVBuPMs
   - channel: Horror Ziom
     link: https://www.youtube.com/watch?v=t8NDr-jjpcE
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=eeXoBgu_yQU
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=hlcJG8CfGYE
+  - channel: Anna Budzik Czyta
+    link: https://www.youtube.com/watch?v=oO8vDl8b0U8
 ---
 

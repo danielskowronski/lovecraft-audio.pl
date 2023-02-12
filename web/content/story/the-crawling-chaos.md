@@ -13,7 +13,7 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/34377174-the-crawling-chaos
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=ye_6JRv_Nzs
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=I0C5Qocdn20
 ---
 

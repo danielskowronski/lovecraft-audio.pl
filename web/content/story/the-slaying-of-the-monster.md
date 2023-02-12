@@ -17,5 +17,7 @@ audiobooks:
     link: https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata
   - channel: Świat Lovecrafta
     link: https://www.youtube.com/watch?v=h35RjHXyYVA
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=HEA93fhGqN4
 ---
 

@@ -22,5 +22,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=oUN9XKNYmWo
   - channel: Esawerr
     link: https://www.youtube.com/watch?v=0naIAH26J_8
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=I2hbIFZTVuU
 ---
 

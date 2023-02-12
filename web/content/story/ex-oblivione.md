@@ -16,5 +16,7 @@ audiobooks:
     link: https://youtube.com/watch?v=SpDCS6lxhy4
   - channel: Oldcreepyman100
     link: https://www.youtube.com/watch?v=ScVecHPzJ2k
+  - channel: Dimer czyta
+    link: https://www.youtube.com/watch?v=pGd4SKW5IbI
 ---
 

@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=_bckYjLQUYI
   - channel: Anna Budzik Czyta
     link: https://www.youtube.com/watch?v=X5a9eqXtQjg
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=klHY5pJWnbc&list=PLXyR6MkY84z_iqc6GI8niDd4gkw4APrP9
 ---
 

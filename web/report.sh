@@ -14,7 +14,6 @@ report_channel_stats () {
 }
 
 report_inactive_links () {
-	return 
 	CNT=0
 	for file in `find content/story -type f`; do
 		for link in `yq '.audiobooks[].link' $file`; do

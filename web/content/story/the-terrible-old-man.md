@@ -4,6 +4,7 @@ title: "The Terrible Old Man"
 titles_pl:
   - Przerażający staruch
   - Straszliwy Starzec
+  - Straszny starzec
 
 authors:
   - H.P. Lovecraft
@@ -19,5 +20,9 @@ audiobooks:
     link: https://www.youtube.com/watch?v=7hx9Wp1GzsI
   - channel: MysteryTV
     link: https://www.youtube.com/watch?v=3-MQmMDHv8c
+  - channel: Audiometria
+    link: https://www.youtube.com/watch?v=Eiobs6wArfU
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=xjSee6leQio
 ---
 

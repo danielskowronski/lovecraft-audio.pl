@@ -14,5 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/6505013-the-moon-bog
 audiobooks:
   - channel: Straszne Opowieści
     link: https://www.youtube.com/watch?v=1NVHVLs26HU
+  - channel: Zaczytany
+    link: https://www.youtube.com/watch?v=V_H_GJa0nZU
 ---
 

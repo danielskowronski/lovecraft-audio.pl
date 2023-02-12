@@ -14,7 +14,9 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/13277964-the-doom-that-came-to-sarnath
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=hEC5SbxO97w
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=LRXkM8ufRZg
+  - channel: Dzivny
+    link: https://www.youtube.com/watch?v=q4BQq98rmF0
 ---
 

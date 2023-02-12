@@ -15,5 +15,9 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/13596306-the-disinte
 audiobooks:
   - channel: Audioteka
     link: https://audioteka.com/pl/audiobook/wyzwanie-z-innego-swiata
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=fMcQJR0hsOI
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=og2ZRxEhO3w
 ---
 

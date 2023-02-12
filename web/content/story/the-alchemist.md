@@ -16,5 +16,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=Z4jG67GPYmc
   - channel: Straszne Opowieści
     link: https://www.youtube.com/watch?v=_JYu2pd1A0M
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=PAVTXpebFls
 ---
 

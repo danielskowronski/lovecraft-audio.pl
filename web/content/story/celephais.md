@@ -14,5 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/8319129-celepha-s
 audiobooks:
   - channel: Straszne Opowieści
     link: https://www.youtube.com/watch?v=JEAsDL-ZxEo
+  - channel: Autystyczny Budda
+    link: https://www.youtube.com/watch?v=RxT2u0nRqac
 ---
 

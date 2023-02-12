@@ -17,6 +17,8 @@ audiobooks:
     link: https://www.youtube.com/watch?v=piMkgaDHSaY
   - channel: Tchnienie Grozy
     link: https://www.youtube.com/watch?v=7usx5qVlwiQ
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=Ld4diFcYWJo&list=PLXyR6MkY84z8JdR5jbuizzshbletNIN7B
 
 ---
 

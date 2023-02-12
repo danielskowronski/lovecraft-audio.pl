@@ -12,7 +12,9 @@ link_www_hplovecraft_pl: https://www.hplovecraft.pl/hplovecraft/opowiadania-nowe
 link_www_goodreads_com: https://www.goodreads.com/book/show/11819140-the-street
 
 audiobooks:
-  - channel: Straszne Opowieści
-    link: https://www.youtube.com/watch?v=niKkyMWlB-c
+  - channel: Audiometria
+    link: https://www.youtube.com/watch?v=B0ha72IiwLc
+  - channel: Świat Lovecrafta
+    link: https://www.youtube.com/watch?v=MPqV7edHAGA
 ---
 

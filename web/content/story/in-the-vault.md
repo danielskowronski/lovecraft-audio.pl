@@ -14,5 +14,7 @@ link_www_goodreads_com: https://www.goodreads.com/book/show/12249640-in-the-vaul
 audiobooks:
   - channel: Świat Lovecrafta
     link: https://www.youtube.com/watch?v=vIkwr6omi70
+  - channel: Strefa Cieni
+    link: https://www.youtube.com/watch?v=Wk0GI6k0Y7E
 ---
 

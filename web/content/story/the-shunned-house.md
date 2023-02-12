@@ -17,5 +17,7 @@ audiobooks:
     link: https://www.youtube.com/watch?v=QVKe9Kq73Ng
   - channel: MysteryTV
     link: https://www.youtube.com/watch?v=yvcoN_0igYc
+  - channel: Anna Budzik Czyta
+    link: https://www.youtube.com/watch?v=QVKe9Kq73Ng
 ---
 
